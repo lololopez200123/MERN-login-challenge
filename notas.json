@@ -1,0 +1,157 @@
+[
+  {
+    "id": 0,
+    "guid": "cf1c8d5d-993f-493c-ab24-a34783afdbcc",
+    "isActive": true,
+    "balance": "$1,936.35",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "blue",
+    "name": "Lottie Walters",
+    "gender": "female",
+    "company": "ECLIPSENT",
+    "email": "lottiewalters@eclipsent.com",
+    "phone": "+1 (832) 534-3307",
+    "address": "427 Stockholm Street, Sandston, New Mexico, 2361",
+    "about": "Mollit quis dolor laboris incididunt mollit proident et elit in incididunt elit irure quis ut. Commodo irure est nostrud excepteur culpa dolor enim nisi consectetur excepteur. Ipsum consectetur ullamco proident fugiat officia culpa ullamco nisi laborum. Amet id esse incididunt exercitation veniam. Consectetur do proident et officia enim irure irure.\r\n",
+    "registered": "2019-09-22T09:12:55 +03:00",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Justice Rowland"
+      },
+      {
+        "id": 1,
+        "name": "Elaine Mcbride"
+      },
+      {
+        "id": 2,
+        "name": "Marian Wilkinson"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "guid": "ccee2c02-6345-4bdc-bca0-5dbd07718c06",
+    "isActive": false,
+    "balance": "$1,856.26",
+    "picture": "http://placehold.it/32x32",
+    "age": 38,
+    "eyeColor": "green",
+    "name": "Kennedy Cox",
+    "gender": "male",
+    "company": "WAZZU",
+    "email": "kennedycox@wazzu.com",
+    "phone": "+1 (932) 449-3712",
+    "address": "533 Stewart Street, Hampstead, Delaware, 8066",
+    "about": "Elit in occaecat nisi dolore eiusmod est. Deserunt cillum ex tempor qui qui tempor minim nostrud. Sit culpa ipsum magna ullamco ullamco nisi est et irure elit incididunt Lorem. Laborum veniam do consequat aliqua dolore magna consectetur enim non sint aute culpa laboris est. Occaecat do tempor ipsum sint eiusmod aute proident pariatur enim consequat est. Reprehenderit aute culpa et enim sint est consectetur nulla ea incididunt commodo magna fugiat.\r\n",
+    "registered": "2018-01-21T09:03:55 +03:00",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Peggy Gray"
+      },
+      {
+        "id": 1,
+        "name": "Bridget Singleton"
+      },
+      {
+        "id": 2,
+        "name": "Malone Lancaster"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "guid": "535d220d-abb7-4550-b484-b9d74fa8b9ed",
+    "isActive": true,
+    "balance": "$1,918.27",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "eyeColor": "green",
+    "name": "Browning Kent",
+    "gender": "male",
+    "company": "ROCKABYE",
+    "email": "browningkent@rockabye.com",
+    "phone": "+1 (833) 471-2813",
+    "address": "459 Cobek Court, Wolcott, Indiana, 2860",
+    "about": "Duis ut consequat aliquip laborum magna qui elit exercitation enim exercitation in pariatur dolore. Voluptate laboris laborum ad adipisicing ut enim reprehenderit dolore deserunt. Anim culpa culpa ut amet laborum qui.\r\n",
+    "registered": "2019-12-14T02:34:10 +03:00",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Odonnell Baldwin"
+      },
+      {
+        "id": 1,
+        "name": "Hilary Alvarez"
+      },
+      {
+        "id": 2,
+        "name": "Gallagher Cherry"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "guid": "cc87ec5a-3303-46c4-8a32-e4904592c990",
+    "isActive": true,
+    "balance": "$2,078.01",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "brown",
+    "name": "Lucinda Forbes",
+    "gender": "female",
+    "company": "FARMEX",
+    "email": "lucindaforbes@farmex.com",
+    "phone": "+1 (902) 486-3272",
+    "address": "361 Lorimer Street, Elliston, Oklahoma, 8679",
+    "about": "Nulla eiusmod sunt ad sit reprehenderit. Ea nisi consectetur sint cillum dolore. Enim nostrud laborum Lorem officia incididunt deserunt reprehenderit. Aliquip voluptate veniam voluptate enim est sint ipsum quis.\r\n",
+    "registered": "2014-12-13T06:06:10 +03:00",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Ballard Austin"
+      },
+      {
+        "id": 1,
+        "name": "Avila Bentley"
+      },
+      {
+        "id": 2,
+        "name": "Guthrie Meadows"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "guid": "e4f5dccf-495c-4323-8595-1ca55a8a6bfe",
+    "isActive": true,
+    "balance": "$2,251.85",
+    "picture": "http://placehold.it/32x32",
+    "age": 38,
+    "eyeColor": "green",
+    "name": "Charlene Boone",
+    "gender": "female",
+    "company": "LUXURIA",
+    "email": "charleneboone@luxuria.com",
+    "phone": "+1 (874) 465-3857",
+    "address": "297 Tabor Court, Roy, Idaho, 6404",
+    "about": "Fugiat mollit voluptate nulla nostrud culpa voluptate sint fugiat veniam est id ad irure. Sit sint quis aute Lorem ad dolor nostrud. Dolor et commodo culpa nostrud ad enim ut consectetur occaecat.\r\n",
+    "registered": "2015-01-09T09:03:56 +03:00",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Mclaughlin Mendez"
+      },
+      {
+        "id": 1,
+        "name": "Sophia Riggs"
+      },
+      {
+        "id": 2,
+        "name": "Concetta Simon"
+      }
+    ]
+  }
+]
