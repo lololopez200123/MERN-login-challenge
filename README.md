@@ -5,7 +5,7 @@
 _Donde se comprobara:_
 
 _Git clone del proyecto_
-
+ 
 _Build y Run de backend y frontend_
 
 _Ingresar al Home. El sistema deberá redirigir al Login porque no estamos autenticados._
@@ -24,7 +24,7 @@ Una vez situado en el directorio del proyecto ejecutar el comando:
 **npm install** para instalar dependencias de desarrollo y produccion.
 
 Pegar en la carpeta "Backend" el fichero .env (variables de entorno) proporcionado por Lorenzo Lopez.
-  
+
 
 ## Como desplegar el proyecto. 📋
 
@@ -50,6 +50,6 @@ siempre y cuando se tenga acceso al repositorio en GIT y el (user & pass) para c
 ## Construido con 🛠️
 
 CONSTRUIDO STACK MERN - BACKEND con MONGO Y EXPRESS 
-Autenticación basada en JWT (Json Web Token)
+Autenticación basada en JWT (Json Web Token).
 
 
