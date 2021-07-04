@@ -1,16 +1,6 @@
-# Challenge entry Login MERN - BACKEND
+# Challenge entry Login MERN - BACKEND & FRONTEND
 
 ### Desarrollar login de usuarios en stack MERN ###
-
-_Donde se comprobara:_
-
-_Git clone del proyecto_
- 
-_Build y Run de backend y frontend_
-
-_Ingresar al Home. El sistema deberá redirigir al Login porque no estamos autenticados._
-
-_Ingresar usuario y contraseña. El sistema deberá redirigir al  Home si las credenciales son válidas._
 
 ## Comenzando 🚀
 
@@ -19,37 +9,50 @@ por lo que no deberas crear una base de datos local ._
 
 ## Instalación 🔧
 
-Una vez situado en el directorio del proyecto ejecutar el comando: 
+COMENZANDO POR EL BACKEND. Una vez situado en el directorio raiz del proyecto.
 
-**npm install** para instalar dependencias de desarrollo y produccion.
+```
+- Dirigirse al directorio Backend con el comando "cd backend".
 
-Pegar en la carpeta "Backend" el fichero .env (variables de entorno) proporcionado por Lorenzo Lopez.
+- "npm install" para instalar dependencias de desarrollo y produccion.
 
+```
 
-## Como desplegar el proyecto. 📋
-
-_Situado en el directorio del proyecto ejecutar el comando:_ 
-
-**npm start** para deployar el proyecto en modo produccion. 
-
-**npm run dev** para deployar el proyecto en modo desarrollo.
+## Desplegando Backend. 📋
 
 
-## Ejecutando las pruebas ⚙️
+_Situado en el directorio "backend" del proyecto ejecutar el comando:_ 
 
-Situado en el directorio del proyecto ejecutar el comando: 
+```
+"npm start" para deployar el proyecto en modo produccion. 
 
-**npm run test** para ejecutar test. 
+"npm run dev" para deployar el proyecto en modo desarrollo.
 
+"npm run test" para ejecutar test. 
 
-## Despliegue 📦
-
+```
 El backend se encuentra deployada en heroku, la cual se puede actualizar pusheando los cambios a la rama "heroku" en git.
 siempre y cuando se tenga acceso al repositorio en GIT y el (user & pass) para correr el comando "heroku login".
 
+## Despliegando Front End 📦
+
+_Situado en el directorio raiz del proyecto ejecutar el comando:_ 
+
+```
+- Dirigirse al directorio frontend con el comando "cd frontend".
+
+- "npm install" para instalar dependencias de desarrollo y produccion.
+
+- "npm start" para lanzar la web en la ruta "localhost:3000"
+
+```
+
+
 ## Construido con 🛠️
 
-CONSTRUIDO STACK MERN - BACKEND con MONGO Y EXPRESS 
+CONSTRUIDO STACK MERN - BACKEND con MONGO - EXPRESS - REACT - NODE 
+
+*Backend
 Autenticación basada en JWT (Json Web Token).
 
 
