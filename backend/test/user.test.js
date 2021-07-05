@@ -36,27 +36,27 @@ describe('creating new user', () => {
 
     // GET IF DUPLICATE EMAIL
     test('creation fails with email is already created', async () => {
-    const usersStart = await getUsers()
+        const usersStart = await getUsers()
 
-    const newUser = {
+        const newUser = {
             name: 'lorenzo-test',
             email: 'testdeprueba2@gmail.com',
             password: 'test123lorenzo'
         }
 
-    const result = await api
-      .post('/api/users/add-user')
-      .send(newUser)
-      .expect(409)
-      .expect('Content-Type', /application\/json/)
+        const result = await api
+            .post('/api/users/add-user')
+            .send(newUser)
+            .expect(409)
+            .expect('Content-Type', /application\/json/)
 
-    const usersFinals = await getUsers()
-    expect(usersFinals).toHaveLength(usersStart.length)
-  })
+        const usersFinals = await getUsers()
+        expect(usersFinals).toHaveLength(usersStart.length)
+    })
 
 
-  afterAll(() => {
-      moongose.connection.close()
+    afterAll(() => {
+        moongose.connection.close()
     })
 
 })
