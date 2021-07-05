@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["components/*"],
+      "screens/*": ["screens/*"],
+      "state/*": ["state/*"],
+      "services/*": ["services/*"],
+      "scss/*": ["scss/*"],
+      "appConfig": ["config/"],
+      "hooks/*": ["hooks/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules/"]
+}
