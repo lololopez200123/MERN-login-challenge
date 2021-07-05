@@ -29,6 +29,30 @@ _Aclaracion: el siguiente comando lanzara de forma simultanea los dos entornos c
 "npm start" para lanzar el cliente en la ruta "localhost:3000" y el back en "localhost:3001"
 
 ```
+## User & Pass para logearse
+
+```
+email: prueba@gmail.com
+password: prueba123
+
+Funcionalidad de registro aun no implementada en el front, se pueden crear usuarios
+mediante el endpoint localhost:3000/api/users/add-user
+
+Ejemplo de BODY para crear usuario:
+
+{ 
+    "name": "User de prueba",
+	"email": "prueba@gmail.com",
+	"password": "prueba123"
+}
+
+Implementada funcionalidad en Api -- Error a emails repetidos
+
+{
+  "message": "Repeated email"
+}
+
+```
 
 ## DevOps 📦
 
