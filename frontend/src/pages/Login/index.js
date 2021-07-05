@@ -14,7 +14,7 @@ import {
 } from '@material-ui/core'
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined'
 import { useStyles } from './styles.js'
-import loginServices from '../../config/api'
+import loginServices from 'config/api'
 
 export default function Login () {
     const classes = useStyles()
@@ -23,6 +23,25 @@ export default function Login () {
     const [user, setUserName] = useState('')
     const [validateToken, setValidateToken] = useState(false)
     const [showPasswordType, setShowPasswordType] = useState('password')
+    // validate email
+    const [emailValid, setEmailValid] = useState(true)
+
+    const emailValidator = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+
+    const validationEmail = (target) => {
+        if (emailValidator) {
+            if (emailValidator.test(target.value)) {
+                setEmailValid(true)
+            } else {
+                setEmailValid(false)
+            }
+        }
+    }
+
+    const onChangeEmail = ({ target }) => {
+        setUserEmail(target.value)
+        validationEmail(target)
+    }
 
     const optionNoDisp = (e) => {
         e.preventDefault()
@@ -99,10 +118,11 @@ export default function Login () {
                             name="email"
                             type="email"
                             autoComplete="email"
-                            onChange={({ target }) => setUserEmail(target.value)}
                             value={ userEmail }
+                            onChange={onChangeEmail}
                             autoFocus
                         />
+                        {!emailValid && <small style={{ color: 'red', display: 'block' }}>Enter a valid email</small>}
                         <TextField
                             variant="outlined"
                             margin="normal"
@@ -113,8 +133,8 @@ export default function Login () {
                             type={showPasswordType}
                             id="password"
                             autoComplete="current-password"
-                            value={userPassword}
-                            onChange={({ target }) => setUserPassword(target.value)}
+                            value={(userPassword)}
+                            onChange={({ target }) => { setUserPassword(target.value) }}
                         />
                         <FormControlLabel
                             control={<Checkbox value="showPassword" color="primary" />}
