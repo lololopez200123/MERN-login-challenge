@@ -4,7 +4,7 @@
 
 ## Comenzando 🚀
 
-_Se ah creado un usuario con credenciales limitadas para consultar la DB alojada en el CLoud de MongoDB
+_Se ah creado un usuario con credenciales limitadas para consultar la DB alojada en el Cloud de MongoDB
 por lo que no deberas crear una base de datos local ._
 
 ## Instalación 🔧
@@ -14,13 +14,16 @@ Primero debemos instalar las dependencias con npm. Una vez situado en el directo
 ```
 - Dirigirse al directorio frontend con el comando "cd frontend".
 
-- "npm install" para instalar dependencias de desarrollo y produccion del Front y del Back.
+- "npm install" para instalar dependencias de desarrollo y produccion del Front.
 
 ```
 
-## Desplegando Entorno de Desarrollo . 📋
+## Desplegando Entorno de Desarrollo FRONT & BACK . 📋
+
 
 _Situado en el directorio raiz Frontend ejecutar el comando:_ 
+
+_Aclaracion: el siguiente comando lanzara de forma simultanea los dos entornos cliente - servidor_ 
 
 ```
 "npm start" para lanzar el cliente en la ruta "localhost:3000" y el back en "localhost:3001"

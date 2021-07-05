@@ -20,7 +20,7 @@
     "server": "cd ../backend && npm install && npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "start": "concurrently \"npm run server\" \"npm install && react-scripts start\""
+    "start": "concurrently \"npm run server\" \"react-scripts start\""
   },
   "eslintConfig": {
     "extends": [
